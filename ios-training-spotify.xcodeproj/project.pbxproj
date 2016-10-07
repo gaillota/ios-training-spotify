@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DD499383A971BAAE52E67D7 /* Pods_ios_training_spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635852FEF24D66DA057B6F71 /* Pods_ios_training_spotify.framework */; };
 		CB9502D11DA6872200994A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9502D01DA6872200994A72 /* AppDelegate.swift */; };
-		CB9502D31DA6872200994A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9502D21DA6872200994A72 /* ViewController.swift */; };
+		CB9502D31DA6872200994A72 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9502D21DA6872200994A72 /* SearchTableViewController.swift */; };
 		CB9502D61DA6872200994A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9502D41DA6872200994A72 /* Main.storyboard */; };
 		CB9502D81DA6872200994A72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9502D71DA6872200994A72 /* Assets.xcassets */; };
 		CB9502DB1DA6872200994A72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9502D91DA6872200994A72 /* LaunchScreen.storyboard */; };
+		CB9502E61DA68FE200994A72 /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9502E51DA68FE200994A72 /* SearchResultTableViewCell.swift */; };
+		CB9502EA1DA6920000994A72 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9502E71DA6920000994A72 /* Track.swift */; };
+		CB9502EB1DA6920000994A72 /* TrackRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9502E81DA6920000994A72 /* TrackRepository.swift */; };
+		CB9502EC1DA6920000994A72 /* TrackFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9502E91DA6920000994A72 /* TrackFactory.swift */; };
+		CB9502F01DA692B100994A72 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9502EF1DA692B100994A72 /* Constants.swift */; };
+		CB9502F21DA692BD00994A72 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9502F11DA692BD00994A72 /* UIViewControllerExtension.swift */; };
+		CB9502F51DA69A0C00994A72 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9502F41DA69A0C00994A72 /* ResultViewController.swift */; };
+		CB9502F71DA69B0300994A72 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9502F61DA69B0300994A72 /* IntExtension.swift */; };
+		CB9502F91DA6A0CE00994A72 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9502F81DA6A0CE00994A72 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16E0CE5322ECBBE52EDD4562 /* Pods-ios-training-spotify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-training-spotify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-training-spotify/Pods-ios-training-spotify.debug.xcconfig"; sourceTree = "<group>"; };
+		635852FEF24D66DA057B6F71 /* Pods_ios_training_spotify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_training_spotify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC1A2E44F32029CF9B1C732 /* Pods-ios-training-spotify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-training-spotify.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-training-spotify/Pods-ios-training-spotify.release.xcconfig"; sourceTree = "<group>"; };
 		CB9502CD1DA6872200994A72 /* ios-training-spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-training-spotify.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9502D01DA6872200994A72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB9502D21DA6872200994A72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB9502D21DA6872200994A72 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		CB9502D51DA6872200994A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB9502D71DA6872200994A72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB9502DA1DA6872200994A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB9502DC1DA6872200994A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9502E51DA68FE200994A72 /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		CB9502E71DA6920000994A72 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		CB9502E81DA6920000994A72 /* TrackRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackRepository.swift; sourceTree = "<group>"; };
+		CB9502E91DA6920000994A72 /* TrackFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackFactory.swift; sourceTree = "<group>"; };
+		CB9502EF1DA692B100994A72 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CB9502F11DA692BD00994A72 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		CB9502F41DA69A0C00994A72 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		CB9502F61DA69B0300994A72 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		CB9502F81DA6A0CE00994A72 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD499383A971BAAE52E67D7 /* Pods_ios_training_spotify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D6573D911F37DCF0D00F61E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				635852FEF24D66DA057B6F71 /* Pods_ios_training_spotify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		652963AC43304EEC9B930E9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16E0CE5322ECBBE52EDD4562 /* Pods-ios-training-spotify.debug.xcconfig */,
+				9DC1A2E44F32029CF9B1C732 /* Pods-ios-training-spotify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CB9502C41DA6872200994A72 = {
 			isa = PBXGroup;
 			children = (
 				CB9502CF1DA6872200994A72 /* ios-training-spotify */,
 				CB9502CE1DA6872200994A72 /* Products */,
+				652963AC43304EEC9B930E9A /* Pods */,
+				0D6573D911F37DCF0D00F61E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +96,71 @@
 		CB9502CF1DA6872200994A72 /* ios-training-spotify */ = {
 			isa = PBXGroup;
 			children = (
+				CB9502EE1DA6928B00994A72 /* Utilities */,
+				CB9502E31DA68C9D00994A72 /* UI */,
+				CB9502E21DA68C9100994A72 /* Model */,
 				CB9502D01DA6872200994A72 /* AppDelegate.swift */,
-				CB9502D21DA6872200994A72 /* ViewController.swift */,
-				CB9502D41DA6872200994A72 /* Main.storyboard */,
-				CB9502D71DA6872200994A72 /* Assets.xcassets */,
-				CB9502D91DA6872200994A72 /* LaunchScreen.storyboard */,
 				CB9502DC1DA6872200994A72 /* Info.plist */,
 			);
 			path = "ios-training-spotify";
+			sourceTree = "<group>";
+		};
+		CB9502E21DA68C9100994A72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB9502ED1DA6920F00994A72 /* Track */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CB9502E31DA68C9D00994A72 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CB9502D71DA6872200994A72 /* Assets.xcassets */,
+				CB9502E41DA68FC800994A72 /* Search */,
+				CB9502D41DA6872200994A72 /* Main.storyboard */,
+				CB9502D91DA6872200994A72 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		CB9502E41DA68FC800994A72 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CB9502D21DA6872200994A72 /* SearchTableViewController.swift */,
+				CB9502E51DA68FE200994A72 /* SearchResultTableViewCell.swift */,
+				CB9502F41DA69A0C00994A72 /* ResultViewController.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		CB9502ED1DA6920F00994A72 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				CB9502E81DA6920000994A72 /* TrackRepository.swift */,
+				CB9502E71DA6920000994A72 /* Track.swift */,
+				CB9502E91DA6920000994A72 /* TrackFactory.swift */,
+			);
+			name = Track;
+			sourceTree = "<group>";
+		};
+		CB9502EE1DA6928B00994A72 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CB9502EF1DA692B100994A72 /* Constants.swift */,
+				CB9502F31DA692CB00994A72 /* Extension */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		CB9502F31DA692CB00994A72 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CB9502F11DA692BD00994A72 /* UIViewControllerExtension.swift */,
+				CB9502F81DA6A0CE00994A72 /* StringExtension.swift */,
+				CB9502F61DA69B0300994A72 /* IntExtension.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB9502DF1DA6872200994A72 /* Build configuration list for PBXNativeTarget "ios-training-spotify" */;
 			buildPhases = (
+				BAA8EC51A8DFD4623E57C393 /* [CP] Check Pods Manifest.lock */,
 				CB9502C91DA6872200994A72 /* Sources */,
 				CB9502CA1DA6872200994A72 /* Frameworks */,
 				CB9502CB1DA6872200994A72 /* Resources */,
+				D51162A0E56E8E5D1C6187E8 /* [CP] Embed Pods Frameworks */,
+				C6C05E7D7FDCD393E913B4EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +198,7 @@
 				TargetAttributes = {
 					CB9502CC1DA6872200994A72 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 52CWLG8FTG;
 					};
 				};
 			};
@@ -130,13 +233,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BAA8EC51A8DFD4623E57C393 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6C05E7D7FDCD393E913B4EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-training-spotify/Pods-ios-training-spotify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D51162A0E56E8E5D1C6187E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-training-spotify/Pods-ios-training-spotify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB9502C91DA6872200994A72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB9502D31DA6872200994A72 /* ViewController.swift in Sources */,
+				CB9502D31DA6872200994A72 /* SearchTableViewController.swift in Sources */,
+				CB9502EB1DA6920000994A72 /* TrackRepository.swift in Sources */,
 				CB9502D11DA6872200994A72 /* AppDelegate.swift in Sources */,
+				CB9502E61DA68FE200994A72 /* SearchResultTableViewCell.swift in Sources */,
+				CB9502F21DA692BD00994A72 /* UIViewControllerExtension.swift in Sources */,
+				CB9502F71DA69B0300994A72 /* IntExtension.swift in Sources */,
+				CB9502F01DA692B100994A72 /* Constants.swift in Sources */,
+				CB9502EC1DA6920000994A72 /* TrackFactory.swift in Sources */,
+				CB9502EA1DA6920000994A72 /* Track.swift in Sources */,
+				CB9502F91DA6A0CE00994A72 /* StringExtension.swift in Sources */,
+				CB9502F51DA69A0C00994A72 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +409,31 @@
 		};
 		CB9502E01DA6872200994A72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E0CE5322ECBBE52EDD4562 /* Pods-ios-training-spotify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "ios-training-spotify/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gaillota.ios-training-spotify";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		CB9502E11DA6872200994A72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC1A2E44F32029CF9B1C732 /* Pods-ios-training-spotify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "ios-training-spotify/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gaillota.ios-training-spotify";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +456,7 @@
 				CB9502E11DA6872200994A72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
